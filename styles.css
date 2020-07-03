@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+.section-main {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    font-family: 'Arvo', serif;
+
+    
+}
+
+.section-container {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    border:1px solid green;
+    transform: translate(-50%,-50%);
+    background: rgba( 14, 16, 14, 0.883 );
+    
+    
+}
+
+.date-main-div {
+    width: 90%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.birthday-div {
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+
+.today-div {
+       width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+.calculate-div {
+    position: relative;
+    height:20%; ;
+}
+.calculator-bt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-left:auto;
+    text-align: center;
+    margin-right: auto;
+    color: green;
+    border-radius: 7px ;
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+    padding: 5px 25px;
+    border: 1px solid green;
+    display: inline-block;
+    
+}
+
+.result-container {
+    position: relative;
+     height: 30%;
+}    
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 5px 6px #000000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #000000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #000000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.result-main {
+    text-align: center;
+   font-family: 'Arvo', serif;
+    color: white;
+    background-color: dimgray;
+    display: inline-block;
+         position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-left:auto;
+
+ 
+    
+}
+
+.result-para {
+    margin-top: 30px;
+    word-spacing:  3px;
+    
+}
+
+.image-div {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.birthday-image {
+    width: 40px;
+    height: 40px;
+}
+
+.date-name {
+    color: green;
+    font-size: 280%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    
+}
+
+.birthday-main {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.birthday-input-class {
+    font-size: 150%;
+    border: .6px solid green;
+    border-radius: 20px; 
+    text-align: center;
+    color: black;
+    height: 35px;
+    width: 70%;
+    
+}
+
+
+
+.today-input-class {
+     font-size: 150%;
+    border: .6px solid green;
+    border-radius: 20px; 
+    text-align: center;
+    width: 70%;
+    color: black;
+    height: 35px;
+}
