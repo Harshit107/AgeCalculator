@@ -6,6 +6,8 @@
 }
 h2 {
     letter-spacing: 2px;
+    font-size: 200%;
+    margin-top: 20px;
 }
 
 
@@ -57,7 +59,7 @@ h2 {
 }
 .calculate-div {
     position: relative;
-    height:20%; ;
+    height:20%; 
 }
 
 .calculator-bt {
@@ -102,6 +104,7 @@ h2 {
 }
 
 .result-main {
+    visibility: hidden;
     text-align: center;
    font-family: 'Arvo', serif;
     color: white;
@@ -117,9 +120,10 @@ h2 {
 }
 
 .result-para {
-    margin-top: 30px;
+    margin-top: 20px;
     word-spacing:  3px;
-    font-size: 130%;
+    letter-spacing: 2px;
+    font-size: 300%;
     
 }
 
@@ -154,7 +158,7 @@ h2 {
     width: 70%;
 }
 
-.birthday-input-class {
+#birthday-input {
     font-size: 150%;
     border: .6px solid green;
     border-radius: 20px; 
@@ -179,8 +183,8 @@ input:valid+span::after {
   content: '✓';
 }
 
-.today-input-class {
-     font-size: 150%;
+#today-input {
+    font-size: 150%;
     border: .6px solid green;
     border-radius: 20px; 
     text-align: center;
